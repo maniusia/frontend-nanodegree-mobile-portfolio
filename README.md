@@ -7,7 +7,7 @@
 ## Running Instruction: 
  
  1.	Copy the link to the portfolio page: https://maniusia.github.io/frontend-nanodegree-mobile-portfolio/views/pizza.html
- 2.	Go to [PageSpeed page] (https://developers.google.com/speed/pagespeed/insights/) and paste the portfolio page url in the window with: Enter a web page URL.
+ 2.	Go to https://developers.google.com/speed/pagespeed/insights/ and paste the portfolio page url in the window with: Enter a web page URL.
  3. Click on Analyze
  4. Open the portfolio page in the browser.
  5. Open DevTools 
