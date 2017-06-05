@@ -418,9 +418,7 @@ var resizePizzas = function(size) {
 
   changeSliderLabel(size);
 
-  // Iterates through pizza elements on the page and changes their widths
-  //UPDATED: Removed sizeSwitcher and determineDx
-  //UPDATED: Changes the slider value to a percent width
+  // Fixed the Pizza Sizes switch by moving var outside the loop and deleting the unnecessary code.
   function changePizzaSizes(size) {
     switch(size) {
       case "1":
@@ -435,7 +433,6 @@ var resizePizzas = function(size) {
       default:
         console.log("bug in changePizzaSizes");
     }
-    //UPDATED: access randomPizzaContainer class out the loop.
     var randomPizzas = document.getElementsByClassName("randomPizzaContainer");
 
 
